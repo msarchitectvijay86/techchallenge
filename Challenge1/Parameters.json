@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "rgname": {
+      "value": "testrg"
+    },
+    "location": {
+      "value": "Central India"
+    },
+    "vmname": {
+      "value": "testvm"
+    },
+    "osdisk": {
+      "value": "testdisk"
+    },	
+    "vnet": {
+      "value": "testvnet"
+    },
+    "vmadmin": {
+      "value": "admin"
+    },
+    "vmpass": {
+      "value": "P@ssw0rd"
+    },	
+    "sqlDbSku": {
+      "value": {
+        "name": "Premium",
+        "tier": "Premium",
+        "capacity": 200
+      }
+    },
+    "sqlsvr": {
+      "value": "sqlserver"
+    },
+    "sqladmin": {
+      "value": "admin"
+    },
+    "sqlpass": {
+      "value": "P@ssw0rd"
+    },	
+    "dbName": {
+      "value": "sqltest"
+    }
+  }
+}
